@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Serif+Bengali:wght@300;400;600;700&display=swap');
 body{
     font-family: 'Noto Serif Bengali', serif;
+    background: url('img/bg.png');
+    background-attachment: fixed;
 }
 .main-website{
-    width: 1185px;
+    width: 90%;
     margin: 0 auto;
     padding: 0px 10px;
-    background-color: hwb(206 71% 0% / 0.573);
+    background-color: white;
     padding-bottom: 40px;
     
 }
@@ -15,8 +17,8 @@ body{
 }
 .menu{
     width: 100%;
-    background:#004786 ;
-    border-bottom: 3px solid #74010D;
+    background:#008606 ;
+    border-bottom: 3px solid #d20016;
     height: 45px;
 }
 .menu ul {
@@ -39,7 +41,7 @@ body{
     border-left: 0px;
 }
 .menu ul li:hover{
-    background:#016bc9;
+    background:#01cb0b;
 }
 .active{
     background:#74010D !important;
@@ -52,7 +54,7 @@ body{
     position: absolute;
     top: 41px;
     left: 27px;
-    background: #004786;
+    background: #008606;
     padding: 0;
     text-align: center;
     border-top: 2px solid #fff;
@@ -75,7 +77,7 @@ body{
     transform: scaleY(1);
 }
 .notice-bg{
-    background: linear-gradient(-90deg,#2f90fe, #010174);
+    background: linear-gradient(-90deg,rgb(105 225 62),rgb(29 36 23));
     color: #fff;
     text-align: left;
     padding:5px 10px;
@@ -241,7 +243,7 @@ body{
     cursor: pointer;
 }
 section#footer {
-    background: #33a0fe;
+    background: rgb(23 122 3);
     padding: 10px 30px;
     color: #fff;
 }
@@ -261,7 +263,7 @@ section#footer {
     text-decoration: underline;
 }
 .header{
-    background: linear-gradient(180deg, rgb(42, 103, 255),rgb(9, 89, 171));
+    background:linear-gradient(180deg, rgb(29 36 23),rgb(105 225 62));
     width: 100%;
     height: 176px;
     padding: 21px 70px;
@@ -275,6 +277,7 @@ section#footer {
 .logo-img {
     width: 130px !important;
     margin-top: -80px;
+    margin-left: 60px;
 }
 
 .header-text h2 {
